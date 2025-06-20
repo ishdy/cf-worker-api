@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cf-worker-api",
+  "name": "cf-worker-api", // 确保这里是你想要的 Worker 名称
   "main": "src/index.ts",
   "compatibility_date": "2025-05-25",
   "compatibility_flags": [
@@ -21,8 +21,6 @@
     "googleui_key": "*****************************",
     "yandexui_uid": "*****************************",
     "yandexui_key": "*****************************"
-  },
-  "site": {
-    "bucket": "./public"
   }
+  // <<<--- 请将整个 "site" 配置块（包括 "site": 和它下面的内容）删除！
 }
